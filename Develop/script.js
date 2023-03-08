@@ -16,7 +16,7 @@ $(".time-block").each(function() {
   console.log(hourBlock);
 if (currentHour > hourBlock) {
   $(this).addClass("past");
-} else if (currentHour === hourBlock) {
+} else if (currentHour == hourBlock) {
   $(this).removeClass("past");
   $(this).removeClass("future");
   $(this).addClass("present");
