@@ -43,7 +43,7 @@ Additionally, you can find the live page at this link: https://joshbaileydev513.
 
 ## Credits
 
-All credits to both of my instructors Jack and Jay who have been a huge help during class so far!
+All credits to both of my instructors Jack and Jay who have been a huge help during class so far. Additional credits to the source code used from the UNC Charlotte Coding Bootcamp for this specific assignment!
 
 ## License
 
