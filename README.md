@@ -1,99 +1,50 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Weekly Challenge 5 - Work Day Scheduler
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+The motivation behind this weekly challenge was about helping familiarize ourselves with building dynamically updated HTML and CSS powered by jQuery.  The main goal was to build a workday scheduler that can help organize peoples days by showing different time blocks for past/present/future along with storing user input for each individual hour block.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+In this specific challenge, the User Story was: AS AN employee with a busy schedule, I WANT to add important events to a daily planner,  SO THAT I can manage my time effectively. The main acceptance criteria were as follows:
 
-## User Story
+- GIVEN I am using a daily planner to create a schedule
+- WHEN I open the planner
+- THEN the current day is displayed at the top of the calendar
+- WHEN I scroll down
+- THEN I am presented with timeblocks for standard business hours
+- WHEN I view the timeblocks for that day
+- THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+- WHEN I click into a timeblock
+- THEN I can enter an event
+- WHEN I click the save button for that timeblock
+- THEN the text for that event is saved in local storage
+- WHEN I refresh the page
+- THEN the saved events persist
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+The main goal this would be to create a dynamically responsive web application powered by jQuery to further our skills within third party APIs. Additionally, we can use this knowledge to help us look for jobs in which this may be a required skillset! 
 
-## Acceptance Criteria
+Through this fifth challenge, I learned multiple hands on skils that will be used within the modern software development lifecycle and environment. I was able to use jQuery & Third Party API's to perform this dynamically respsonsive web application which can function both as a personal tool to use but additionally a portfolio piece. 
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+## Installation
 
-The following animation demonstrates the application functionality:
+To get this project installed you can find the core code at https://github.com/joshbaileydev513/challenge-5 . From there, click the green <>Code dropdown button and copy the HTTPS or SSH link within Clone. Once you have that copied, open up your CLI or GitBash and run the following commands:
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+git clone (paste your HTTPS or SSH link)
 
-## Grading Requirements
+Or you can view the live page here: https://joshbaileydev513.github.io/challenge-5/
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Usage
 
-This Challenge is graded based on the following criteria:
+To use the main functionality of this page, you will see each hour block associated with a color based off the current time. The three different block colors coordinate with the current time in the upper part of the screent to show you past (grey), present (red), and future (green). Additional functionality comes with being able to enter text within each block for scheduling out your day and then saving that text with the blue save button to the right.
+Once saved, you can refresh your browser but still have your saved schedule there for you to see. If you want to clear your schedule, just simply erase the typed text and click save on each time block! 
 
-### Technical Acceptance Criteria: 40%
+![Deployed Page](assets/live-pic5.PNG)
 
-* Satisfies all of the above acceptance criteria plus the following:
+Additionally, you can find the live page at this link: https://joshbaileydev513.github.io/challenge-5/
 
-  * Uses a date utility library to work with date and time
+## Credits
 
-### Deployment: 32%
+All credits to both of my instructors Jack and Jay who have been a huge help during class so far!
 
-* Application deployed at live URL
+## License
 
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Please refer to the LICENSE in the repo.
